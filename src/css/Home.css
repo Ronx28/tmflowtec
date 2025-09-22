@@ -1,0 +1,123 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #f8f9fa;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;  
+}
+
+.logo img {
+  height: 28px;     
+  width: 100px;     
+  object-fit: auto; 
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-size: 16px;
+  color: #444;
+}
+
+/* Tombol Login */
+.nav-buttons .login {
+  background: transparent;
+  border: none;
+  margin-right: 10px;
+  font-size: 16px;
+  color: #E62727;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+/* Tombol Sign Up */
+.nav-buttons .signup {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  color: #E62727;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+/* Aktif (border pindah kesini) */
+.nav-buttons button.active {
+  border: 2px solid black;
+}
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  background: #f8f9fa;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  color: #333;
+}
+
+.hero-text h1 span {
+  color: #4caf50;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  color: #555;
+  font-size: 16px;
+}
+
+.register {
+  background: #4caf50;
+  border: none;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero-image img {
+  max-width: 400px;
+}
+
+/* Clients Section */
+.clients {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.clients h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.clients p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.client-logos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
